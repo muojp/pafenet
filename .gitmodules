@@ -1,0 +1,3 @@
+[submodule "pafe_sfreader/libpafe"]
+	path = pafe_sfreader/libpafe
+	url = https://github.com/muojp/libpafe.git

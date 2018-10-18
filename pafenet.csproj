@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+    <RuntimeIdentifiers>linux-x64;linux-arm;win10-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <Content Include="pafe_sfreader/build-linux-x64/libpafe_sfreader.so">
+      <PackagePath>runtimes/linux-x64/native/libpafe_sfreader.so</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+    <Content Include="pafe_sfreader/build-linux-arm/libpafe_sfreader.so">
+      <PackagePath>runtimes/linux-arm/native/libpafe_sfreader.so</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+    <Content Include="pafe_sfreader/build-release-win64/Release/pafe_sfreader.dll">
+      <PackagePath>runtimes/win10-x64/native/pafe_sfreader.dll</PackagePath>
+      <Pack>true</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>
