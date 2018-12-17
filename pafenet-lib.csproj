@@ -6,6 +6,7 @@
     <RuntimeIdentifiers>linux-x64</RuntimeIdentifiers>
     <Title>Pafenet Lib</Title>
     <Description>A .NET wrapper of libpafe w/ dynamic-linking</Description>
+    <PackageVersion>1.0.1</PackageVersion>
     <PackageProjectUrl>https://github.com/muojp/pafenet/</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
